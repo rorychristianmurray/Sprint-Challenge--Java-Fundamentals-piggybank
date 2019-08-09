@@ -77,11 +77,50 @@ public class Main {
         // when find a coin, add it to running coin total
         // print coin totals
 
+        // declare coin variabes
         int dime = 0;
         int dollar = 0;
         int nickel = 0;
         int penny = 0;
         int quarter = 0;
+
+        // loop through piggy bank
+        // when find a coin, add it to running coin total
+
+        for (AbstractCoin c : piggyBank)
+        {
+            if (c.getCoin == "Dime")
+            {
+                dime += c.getAdd()
+            }
+            if else (c.getCoin == "Dollar")
+            {
+                dollar += c.getAdd()
+            }
+            if else (c.getCoin == "Nickel")
+            {
+                nickel += c.getAdd()
+            }
+            if else (c.getCoin == "Penny")
+            {
+                penny += c.getAdd()
+            }
+            if else (c.getCoin == "Quarter")
+            {
+                quarter += c.getAdd()
+            }
+        }
+
+        // print coin totals
+        
+        for (AbstractCoin c : piggyBank)
+        {
+            System.out.println("Dollar: " + dollar)
+            System.out.println("Quarter: " + quarter)
+            System.out.println("Dime: " + dime)
+            System.out.println("Nickel: " + nickel)
+            System.out.println("Penny: " + penny)
+        }
 
     }
 }
