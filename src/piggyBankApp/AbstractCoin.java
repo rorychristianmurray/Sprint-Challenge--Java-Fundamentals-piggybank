@@ -30,4 +30,7 @@ public abstract class AbstractCoin {
     // Gets type of coin the subclass is
     public abstract String getCoin();
 
+    // removes coin from piggy bank
+    public abstract String removeCoin();
+
 }
