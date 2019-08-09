@@ -28,6 +28,6 @@ public abstract class AbstractCoin {
     public abstract double getTotal();
 
     // Gets type of coin the subclass is
-    public String getCoin();
+    public abstract String getCoin();
 
 }
