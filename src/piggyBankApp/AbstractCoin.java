@@ -30,10 +30,10 @@ public abstract class AbstractCoin {
     // Gets type of coin the subclass is
     public abstract String getCoin();
 
-    // removes coin from piggy bank
-    public abstract removeCoin(int add);
+    // // removes coin from piggy bank
+    // public abstract removeCoin(int add);
 
-    // gets total amount of a type of coin
-    public abstract int getAmountCoins();
+    // // gets total amount of a type of coin
+    // public abstract int getAmountCoins();
 
 }

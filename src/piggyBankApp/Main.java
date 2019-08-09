@@ -87,40 +87,26 @@ public class Main {
         // loop through piggy bank
         // when find a coin, add it to running coin total
 
-        for (AbstractCoin c : piggyBank)
-        {
-            if (c.getCoin == "Dime")
-            {
-                dime += c.getAdd()
-            }
-            if else (c.getCoin == "Dollar")
-            {
-                dollar += c.getAdd()
-            }
-            if else (c.getCoin == "Nickel")
-            {
-                nickel += c.getAdd()
-            }
-            if else (c.getCoin == "Penny")
-            {
-                penny += c.getAdd()
-            }
-            if else (c.getCoin == "Quarter")
-            {
-                quarter += c.getAdd()
+        for (AbstractCoin c : piggyBank) {
+            if (c.getCoin() == "Dime") {
+                dime += c.getAdd();
+            } else if (c.getCoin() == "Dollar") {
+                dollar += c.getAdd();
+            } else if (c.getCoin() == "Nickel") {
+                nickel += c.getAdd();
+            } else if (c.getCoin() == "Penny") {
+                penny += c.getAdd();
+            } else if (c.getCoin() == "Quarter") {
+                quarter += c.getAdd();
             }
         }
 
         // print coin totals
-        
-        for (AbstractCoin c : piggyBank)
-        {
-            System.out.println("Dollar: " + dollar)
-            System.out.println("Quarter: " + quarter)
-            System.out.println("Dime: " + dime)
-            System.out.println("Nickel: " + nickel)
-            System.out.println("Penny: " + penny)
-        }
+        System.out.println("Dollar: " + dollar);
+        System.out.println("Quarter: " + quarter);
+        System.out.println("Dime: " + dime);
+        System.out.println("Nickel: " + nickel);
+        System.out.println("Penny: " + penny);
 
     }
 }
