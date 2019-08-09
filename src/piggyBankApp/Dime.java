@@ -42,4 +42,9 @@ public class Dime extends AbstractCoin {
         return coin;
     }
 
+    @Override
+    public String removeCoin(int add) {
+        this.add = this.add - add;
+    }
+
 }

@@ -31,6 +31,9 @@ public abstract class AbstractCoin {
     public abstract String getCoin();
 
     // removes coin from piggy bank
-    public abstract String removeCoin();
+    public abstract removeCoin(int add);
+
+    // gets total amount of a type of coin
+    public abstract int getAmountCoins();
 
 }

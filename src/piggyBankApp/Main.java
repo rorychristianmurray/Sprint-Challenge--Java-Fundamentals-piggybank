@@ -69,5 +69,19 @@ public class Main {
 
         System.out.println("The piggy bank holds " + fp.format(myValue));
         System.out.println();
+
+        // get total amount of coin sub class
+
+        // declare coin variabes
+        // loop through piggy bank
+        // when find a coin, add it to running coin total
+        // print coin totals
+
+        int dime = 0;
+        int dollar = 0;
+        int nickel = 0;
+        int penny = 0;
+        int quarter = 0;
+
     }
 }
